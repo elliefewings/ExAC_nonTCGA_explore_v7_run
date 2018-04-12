@@ -1,12 +1,12 @@
 # ExAC_nonTCGA_explore_v7
 A shiny app that opens filtered ExAC non-TCGA data locally via a shortcut
 
-#To run:
-Download Git repo,
-MAC users: Change location in .command file to location of run.r file in ExAC_nonTCGA_explore_v7 directory
-Windows users: May need to set location and version of local R
-Double click file to run (windows: ExAC nonTCGA Browser.bat, mac: ExAC nonTCGA Browser_MAC.command)
-Create shortcut to .bat or .command file using .ico logo.
+# To run:
+- Download Git repo
+- MAC users: Change location in .command file to location of run.r file in ExAC_nonTCGA_explore_v7 directory
+- Windows users: May need to set location and version of local R
+- Double click file to run (windows: ExAC nonTCGA Browser.bat, mac: ExAC nonTCGA Browser_MAC.command)
+- Create shortcut to .bat or .command file using .ico logo.
 
 App can now be run from shortcut.
 
