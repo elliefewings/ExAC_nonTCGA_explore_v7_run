@@ -1,0 +1,1 @@
+R CMD BATCH '/Users/user/Desktop/ExAC_nonTCGA_explore_v7_run/run.R'

@@ -1,0 +1,63 @@
+
+R version 3.4.3 (2017-11-30) -- "Kite-Eating Tree"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> require(shiny)
+Loading required package: shiny
+> dir <- "C:\\Users\\ellie\\OneDrive - Clinical School Computing Service\\data_local\\GitHub\\ExAC_nonTCGA_explore_v7_run"
+> shiny::runApp(appDir = dir, launch.browser=TRUE, port=3918)
+Warning: package 'plyr' was built under R version 3.4.4
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:plyr':
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning: package 'DT' was built under R version 3.4.4
+
+Attaching package: 'DT'
+
+The following objects are masked from 'package:shiny':
+
+    dataTableOutput, renderDataTable
+
+Warning: package 'reshape' was built under R version 3.4.4
+
+Attaching package: 'reshape'
+
+The following object is masked from 'package:dplyr':
+
+    rename
+
+The following objects are masked from 'package:plyr':
+
+    rename, round_any
+
+Warning: package 'ggplot2' was built under R version 3.4.4
+
+Listening on http://127.0.0.1:3918
